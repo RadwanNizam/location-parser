@@ -14,7 +14,7 @@ public class TimeZoneDBZonRetrieval implements TimeZoneRetrieval{
         RestTemplate restTemplate = new RestTemplate();
 
         StringBuilder request = new StringBuilder("http://vip.timezonedb.com/v2.1/get-time-zone?key=");
-        request.append("4I9X2TT4PVCU").append("&format=json&fields=zoneName&by=position&lat=").
+        request.append("YOUR OWN KEY FROM TIMEZONE DB").append("&format=json&fields=zoneName&by=position&lat=").
                 append(latitude).append("&lng=").append(longitude);
         TimeZoneDBResponse response = restTemplate.getForObject(request.toString()
                     , TimeZoneDBResponse.class);
