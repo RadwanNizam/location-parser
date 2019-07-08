@@ -1,0 +1,54 @@
+2019-07-06 19:37:57.900: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location 2013-07-10 02:52:49
+2019-07-06 19:37:57.912: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -   is not a valid latitude
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion:  is not a valid latitude
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseCoordinate(CSVLocationParser.java:81)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:47)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
+2019-07-06 19:37:58.274: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location 2013-07-10
+2019-07-06 19:37:58.274: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -  2013-07-10 is not a valid time
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion: 2013-07-10 is not a valid time
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.addDates(CSVLocationParser.java:70)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:50)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
+2019-07-06 19:37:58.275: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location 
+2019-07-06 19:37:58.276: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -   is not a valid latitude
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion:  is not a valid latitude
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseCoordinate(CSVLocationParser.java:81)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:47)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
+2019-07-06 19:37:58.277: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location as fasdf asfsadffff
+2019-07-06 19:37:58.278: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -  [as fasdf asfsadffff] is not a valid location
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion: [as fasdf asfsadffff] is not a valid location
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:43)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
+2019-07-06 19:44:59.590: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location 2013-07-10 02:52:49
+2019-07-06 19:44:59.606: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -   is not a valid latitude
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion:  is not a valid latitude
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseCoordinate(CSVLocationParser.java:81)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:47)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
+2019-07-06 19:44:59.922: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location 2013-07-10
+2019-07-06 19:44:59.924: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -  2013-07-10 is not a valid time
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion: 2013-07-10 is not a valid time
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.addDates(CSVLocationParser.java:70)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:50)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
+2019-07-06 19:44:59.926: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location 
+2019-07-06 19:44:59.927: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -   is not a valid latitude
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion:  is not a valid latitude
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseCoordinate(CSVLocationParser.java:81)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:47)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
+2019-07-06 19:44:59.928: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:41] -  error in parsing location as fasdf asfsadffff
+2019-07-06 19:44:59.929: ERROR  - spring.application.name_IS_UNDEFINED - [main] [org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse:42] -  [as fasdf asfsadffff] is not a valid location
+org.ridwan.fleet.parsers.location.exception.InvalidLocationFormatExcetion: [as fasdf asfsadffff] is not a valid location
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationParser.parseLocation(CSVLocationParser.java:43)
+	at org.ridwan.fleet.parsers.location.csv.CSVLocationsFileProcessor.parse(CSVLocationsFileProcessor.java:38)
+	at org.ridwan.fleet.parsers.location.LocationParserMain.main(LocationParserMain.java:21)
